@@ -40,7 +40,7 @@ const SocialLinks = () => {
                     Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: "cv_mohammed_rerhaye.pdf",
+            href: "CV_MOHAMMED_RERHAYE.pdf",
             style: "rounded-br-md",
             download: true,
         },
