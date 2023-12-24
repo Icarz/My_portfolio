@@ -3,6 +3,8 @@ import MealApp from '../assets/portfolio/Meals_app.png'
 import MovieApp from '../assets/portfolio/movie_app.png'
 import ReactParallax from '../assets/portfolio/reactParallax.jpg'
 import WeatherApp from '../assets/portfolio/reactWeather.jpg'
+import TodoList from '../assets/portfolio/Todo_list.png'
+import QuizApp from '../assets/portfolio/Quiz_app.png'
 
 const PortFolio = () => {
     const portFolios = [
@@ -15,8 +17,8 @@ const PortFolio = () => {
         {
             id: 2,
             src: WeatherApp,
-            demoLink: " ",
-            codeLink: ""
+            demoLink: "https://icarz.github.io/weather_react_app",
+            codeLink: "https://github.com/Icarz/weather_react_app"
         },
         {
             id: 3,
@@ -27,14 +29,26 @@ const PortFolio = () => {
         {
             id: 4,
             src: ReactParallax,
-            demoLink: "",
-            codeLink: ""
+            demoLink: "https://icarz.github.io/React-Parallax-Effect",
+            codeLink: "https://github.com/Icarz/React-Parallax-Effect"
+        },
+        {
+            id: 5,
+            src: TodoList,
+            demoLink: "https://icarz.github.io/React_todo_list",
+            codeLink: "https://github.com/Icarz/React_todo_list"
+        },
+        {
+            id: 6,
+            src: QuizApp,
+            demoLink: "https://icarz.github.io/Quiz_app",
+            codeLink: "https://github.com/Icarz/Quiz_app"
         },
     ]
     return (
         <div
             name="portfolio"
-            className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+            className="bg-gradient-to-b from-black to-gray-800 w-full text-white"
         >
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
