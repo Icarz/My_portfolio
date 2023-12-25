@@ -15,7 +15,7 @@ const Home = () => {
                         I'm a Full Stack Developer
                     </h2>
                     <p className="text-gray-500 py-4 max-w-md">
-                        Full stack Developpeur en reconversion professionnelle apres une experience dansl’industrie, j’ai amorcè une reconversion vers le developpement informatique.
+                        Full stack Developpeur en reconversion professionnelle apres une experience dans l’industrie, j’ai amorcè une reconversion vers le developpement informatique.
                         Mon parcours associe competences industrielles et la passion croissante pour la
                         programmation.
                     </p>
